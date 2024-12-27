@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            background-color: aquamarine;
+            color: white;
+            background: url(https://wallpapercave.com/wp/wp9436943.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        p{
+            display: inline;
+        }
+        div{
+            text-align: center;
+            border: 2px solid rgba(255,255,255,0.2);
+            width: 400px;
+            background-color: transparent;
+            text-align: center;
+            height: 350px;
+            margin-top: 150px;
+            border-radius: 25px;
+            backdrop-filter: blur(1px);
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        
+        .one{
+            width: 300px;
+            height: 35px;
+            border-radius: 25px;
+            border: 1px solid white;
+            background-color: transparent;
+            text-indent: 10px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        .one::placeholder{
+            color:white;
+        }
+        h1{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        #login{
+            width: 300px;
+            height: 25px;
+            border-radius: 25px;
+            background-color: white;
+            color: black;
+            border: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        
+        }
+        #link{
+            font-weight: 900;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div>
+        <h1>Login</h1>
+        <form>
+            <input class="one" type="text" placeholder="Username" name="Username">
+            <br>
+            <input class="one" type="password" placeholder="Password" name="password">
+            <br>
+            <input style="border-color: white;" type="checkbox" value="verify">
+            
+            <p>Remember me</p>
+            
+            <a id="link" style="margin-left: 60px;" href="#">Forgot password?</a>
+            <br>
+            <input id="login" type="submit" value="Login">
+            <br>
+            <p>Don't have an account?</p>
+            
+            <a id="link" href="#">Register</a>        
+        </form>
+    </div>
+</center>
+</body>
+</html>
